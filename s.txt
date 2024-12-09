@@ -1,4 +1,4 @@
-onclude<stdio.h>
+include<stdio.h>
 void main()
 {
 int a,b,temp;
@@ -23,7 +23,6 @@ B=a-b;
 a=a-b;
 printf("After swapping A=%d B=%d",a,b);
 }
-<<<<<<< HEAD
 //fibonacci series
 #include <stdio.h>
 int main() {
@@ -55,7 +54,7 @@ sum=num1+num2;
 printf("The sum is:%d\n",sum);
 return 0;
 }
-<<<<<<< HEAD
+============
 #include<stdio.h>
 int main(){
 int a=23,b=34,c=56;
@@ -71,6 +70,4 @@ printf("c is greater %d ",c);
 }
 
 }
-=======
->>>>>>> f13d39149a947de0ed10fa1bba538b0ed895edde
->>>>>>> 57dce536dc53935598c7bc8f1f5f1068e17dd114
+
