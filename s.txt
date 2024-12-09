@@ -1,0 +1,14 @@
+
+void main()
+{
+int a,b,temp;
+int a=10;
+int b=15;
+printf("a is %d\n",a);
+printf("b is %d\n",b);
+temp=a;
+a=b;
+b=temp;
+printf("a is %d\n",a);
+printf("b is %d\n",b);
+}
