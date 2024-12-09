@@ -20,6 +20,7 @@ B=a-b;
 a=a-b;
 printf("After swapping A=%d B=%d",a,b);
 }
+<<<<<<< HEAD
 //fibonacci series
 #include <stdio.h>
 int main() {
@@ -41,3 +42,14 @@ int main() {
   return 0;
 }
 
+=======
+#include<stdio.h>
+int main(){
+int num1,num2,sum;
+printf("Enter two numbers:");
+scanf("%d%d",&num1,&num2);
+sum=num1+num2;
+printf("The sum is:%d\n",sum);
+return 0;
+}
+>>>>>>> f13d39149a947de0ed10fa1bba538b0ed895edde
