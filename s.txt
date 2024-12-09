@@ -1,4 +1,4 @@
-
+nclude<stdio.h>
 void main()
 {
 int a,b,temp;
@@ -11,4 +11,12 @@ a=b;
 b=temp;
 printf("a is %d\n",a);
 printf("b is %d\n",b);
+}
+//swapping of 2 numbers without using third variable
+#include<stdio.h>
+printf("Before swapping A=%d B=%d",a,b);
+a=a+b;
+B=a-b;
+a=a-b;
+printf("After swapping A=%d B=%d",a,b);
 }
